@@ -1,0 +1,76 @@
+:root {
+  --main: #634041;
+  --secondary: #b4b4b4;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--main);
+  background: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 70px 10px;
+}
+
+.logo {
+  width: 160px;
+}
+
+.section {
+  max-width: 700px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+.section.light {
+  background: #f6f6f6;
+}
+
+.full-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.img-roll{
+    display: flex;
+}
+
+.half-img {
+width: 50%;
+margin-right: 10px;
+}
+
+h2 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+input {
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid var(--secondary);
+}
+
+button {
+  padding: 12px;
+  background: var(--main);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 12px;
+  color: var(--secondary);
+}
